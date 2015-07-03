@@ -34,13 +34,14 @@ public class UserInfo extends ActionBarActivity{
         Log.d(tag, "sendAge ::: Button Click");
 
         EditText editText = (EditText)findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        int age = Integer.parseInt(message);
+        if (editText.getText().length()>0) {
+            String message = editText.getText().toString();
+            int age = Integer.parseInt(message);
 
-
-        // Igaworks Adbrix
-        IgawCommon.setAge(age);
-        Log.d(tag, "setAge ::: " + age);
+            // Igaworks Adbrix
+            IgawCommon.setAge(age);
+            Log.d(tag, "setAge ::: " + age);
+        }
     }
 
     // Your Code
