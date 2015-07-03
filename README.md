@@ -21,4 +21,4 @@
 
 # Igaworks Adbrix 연동하기
 연동 가이드와 샘플 프로젝트를 참고하여 연동을 진행합니다. </br>
-<a href="http://help.igaworks.com/hc/ko/3_3/Content/Article/adbrix_aos" target="_blank">Igaworks Common 연동문서 바로가기</a>
+<a href="http://help.igaworks.com/hc/ko/3_3/Content/Article/adbrix_aos" target="_blank">Igaworks Adbrix 연동문서 바로가기</a>
